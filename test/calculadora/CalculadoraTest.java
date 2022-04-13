@@ -54,4 +54,9 @@ public class CalculadoraTest {
 		int somatoria = calc.somatoria(6);
 		Assertions.assertEquals(21);
 	}
+	@Test 
+	public void testmultiplicacao() {
+	  int multiplicar = calc.multiplicacao(3, 12);
+	  Assertions.assertEquals(36, multiplicar);
+  }
 }
