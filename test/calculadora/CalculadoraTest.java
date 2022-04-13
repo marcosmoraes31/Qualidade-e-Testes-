@@ -59,4 +59,10 @@ public class CalculadoraTest {
 	  int multiplicar = calc.multiplicacao(3, 12);
 	  Assertions.assertEquals(36, multiplicar);
   }
+  @Test 
+	public void testehpositivo() {
+		boolean positivo = calc.ehPositivo(4);
+		Assertions.assertTrue(positivo);
+	}
+
 }
