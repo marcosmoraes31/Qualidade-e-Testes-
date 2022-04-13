@@ -64,5 +64,12 @@ public class CalculadoraTest {
 		boolean positivo = calc.ehPositivo(4);
 		Assertions.assertTrue(positivo);
 	}
+	@Test 
+	public void testcomparanumerosiguais() {
+		int comparou = calc.compara(4, -4);
+		Assertions.assertEquals(1, comparou);
+		
+	}
+
 
 }
